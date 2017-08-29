@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[SUCCESSFULLY log-In application :- ]]>
+    </line>
+    <line>
+      <![CDATA[PASSED:- test case testPurchaseRequest]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULLY log-In application :- ]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULLY clicked Purchase Form image button]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULL validated purchase empty form error]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULLY clicked Purchase Form link]]>
+    </line>
+    <line>
+      <![CDATA[PASSED:- test case testValidatePurchaseFormInlineErrors]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULLY log-In application :- ]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULLY clicked Purchase Form image button]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULLY clicked Purchase Form link]]>
+    </line>
+    <line>
+      <![CDATA[PASSED:- test case testValidatePurchaseFormLoaded]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="108053" started-at="2017-08-29T16:15:58Z" finished-at="2017-08-29T16:17:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="108053" started-at="2017-08-29T16:15:58Z" finished-at="2017-08-29T16:17:46Z">
+      <class name="com.runner.TestSuiteRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="beforeTest" is-config="true" duration-ms="16521" started-at="2017-08-29T09:15:58Z" finished-at="2017-08-29T09:16:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESSFULLY log-In application :- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testCreatePurchaseRequest()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="testCreatePurchaseRequest" duration-ms="29229" started-at="2017-08-29T09:16:14Z" finished-at="2017-08-29T09:16:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED:- test case testPurchaseRequest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreatePurchaseRequest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="afterTest" is-config="true" duration-ms="118" started-at="2017-08-29T09:16:44Z" finished-at="2017-08-29T09:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="beforeTest" is-config="true" duration-ms="14620" started-at="2017-08-29T09:16:44Z" finished-at="2017-08-29T09:16:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESSFULLY log-In application :- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testValidatePurchaseFormInlineErrors()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="testValidatePurchaseFormInlineErrors" duration-ms="14977" started-at="2017-08-29T09:16:58Z" finished-at="2017-08-29T09:17:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESSFULLY clicked Purchase Form image button]]>
+            </line>
+            <line>
+              <![CDATA[SUCCESSFULL validated purchase empty form error]]>
+            </line>
+            <line>
+              <![CDATA[SUCCESSFULLY clicked Purchase Form link]]>
+            </line>
+            <line>
+              <![CDATA[PASSED:- test case testValidatePurchaseFormInlineErrors]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidatePurchaseFormInlineErrors -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="afterTest" is-config="true" duration-ms="87" started-at="2017-08-29T09:17:13Z" finished-at="2017-08-29T09:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="beforeTest" is-config="true" duration-ms="15430" started-at="2017-08-29T09:17:13Z" finished-at="2017-08-29T09:17:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESSFULLY log-In application :- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testValidatePurchaseFormLoaded()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="testValidatePurchaseFormLoaded" duration-ms="16946" started-at="2017-08-29T09:17:29Z" finished-at="2017-08-29T09:17:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SUCCESSFULLY clicked Purchase Form image button]]>
+            </line>
+            <line>
+              <![CDATA[SUCCESSFULLY clicked Purchase Form link]]>
+            </line>
+            <line>
+              <![CDATA[PASSED:- test case testValidatePurchaseFormLoaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidatePurchaseFormLoaded -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.runner.TestSuiteRunner@2b98378d]" name="afterTest" is-config="true" duration-ms="104" started-at="2017-08-29T09:17:46Z" finished-at="2017-08-29T09:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.runner.TestSuiteRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

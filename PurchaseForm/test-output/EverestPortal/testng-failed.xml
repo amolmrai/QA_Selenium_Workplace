@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EverestPortal]">
+  <parameter name="sUsername" value="Rtestpro"/>
+  <parameter name="sPassword" value="Testing1!"/>
+  <test name="TestCreatePurchaseRequest(failed)">
+    <classes>
+      <class name="com.runner.TestSuiteRunner">
+        <methods>
+          <include name="testLoginToEverestPortal"/>
+          <include name="testCreatePurchaseRequest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.runner.TestSuiteRunner -->
+    </classes>
+  </test> <!-- TestCreatePurchaseRequest(failed) -->
+</suite> <!-- Failed suite [EverestPortal] -->
