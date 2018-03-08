@@ -1,7 +1,7 @@
 package com.frameworklib;
 
 public class CommonUtil {
-	// Macys
+	public String Macys;
 	public String strLocKey;
 	public String strLocValue;
 	
