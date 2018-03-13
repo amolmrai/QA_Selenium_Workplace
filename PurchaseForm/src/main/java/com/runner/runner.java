@@ -20,8 +20,8 @@ public class runner {
 		driver.get(CommonTestData.APP_URL);
 		Thread.sleep(3000);
 		 try {
-				LoginPage obj1 = new LoginPage(driver); 
-				obj1.login(CommonTestData.USER_NAME ,CommonTestData.USER_PWD);
+				LoginPage macys = new LoginPage(driver); 
+			 	obj1.login(CommonTestData.USER_NAME ,CommonTestData.USER_PWD);
 			} catch (Exception e) {
 				System.out.println("Exception:- "+ e);
 				e.printStackTrace();
